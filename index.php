@@ -16,6 +16,7 @@ $model->teste();
 </head>
 <body>
     <form method="post">
+        if
     <?php    
     echo '<.!DOCTYPE html><br>
                                 <.html lang="pt-br"><br>
@@ -34,7 +35,10 @@ $model->teste();
         ?>
         
         
-        <input type="submit" value="Criar" name="submit">
+        <input onclick="update()" type="submit" value="Criar" name="submit">
     </form>
+
+    <iframe id="frame" style="border:1px solid black;" src="novophp.php" frameborder="0"></iframe>
+    <script src="js/script.js"></script>
 </body>
 </html>

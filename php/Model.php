@@ -38,7 +38,6 @@
                                 </html>';
                                 
                 file_put_contents('novophp.php', $conteudo);
-                header('Location: novophp.php');
                 
             }
         }
